@@ -9,11 +9,13 @@ body {
 .title {
     font-size: 30px;
     margin: 15px 20px;
+    font-style:normal;
 }
 
 a {
     text-decoration: none;
     color: black;
+
 }
 
 nav {
@@ -28,22 +30,38 @@ nav {
     padding: 1vw;
 }
 
+nav a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 17px;
+    transform: scale() ease;
+}
+
+
+
+nav a:hover {
+transform: scale(1.2);
+}
 .logos {
     display: flex;
     align-items: center;
     flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
-    justify-content: flex-end; /* Aligne les éléments à l'extrémité droite */
+    margin-left: 10vw;
+    justify-content:center /* Aligne les éléments à l'extrémité droite */
 }
 
 .logos img {
     width: 5vw;
+    margin-right: 1vw;
 }
 
 .logo {
     display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
     align-items: center; /* Aligne verticalement le logo et le texte */
-    margin-left: 20px; /* Espacement entre chaque logo et son texte */
-}
+    justify-self: space-between;
+    margin-right: 200px; /* Espacement entre chaque logo et son texte */
+}   
 
 main {
     padding-top: 10vw;
