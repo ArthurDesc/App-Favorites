@@ -8,9 +8,8 @@ body {
 
 .title {
     font-size: 30px;
-    margin: 15px 40px;
+    margin: 15px 20px;
 }
-
 
 a {
     text-decoration: none;
@@ -20,25 +19,30 @@ a {
 nav {
     display: flex;
     border: solid none;
-    background-color: w hite;
+    background-color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     position: fixed;
     width: 90vw;
     margin: 20px;
     padding: 1vw;
-    background-color: white;
 }
 
 .logos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
+    justify-content: flex-end; /* Aligne les éléments à l'extrémité droite */
 }
 
 .logos img {
     width: 5vw;
-    margin-right: 15vw;
+}
+
+.logo {
+    display: flex; /* Utilise Flexbox pour aligner le logo et le texte horizontalement */
+    align-items: center; /* Aligne verticalement le logo et le texte */
+    margin-left: 20px; /* Espacement entre chaque logo et son texte */
 }
 
 main {
