@@ -76,7 +76,7 @@ transform: scale(1.2);
 
 
 
-
+/* MAIN */
 main {
     padding-top: 10vw;
 }
@@ -84,6 +84,12 @@ main {
 h2 {
     font-size: 4vw;
     margin: 25px 40px;
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 10px 25px;
+    font-family: "Roboto Mono", monospace;
 }
 
 p {
@@ -96,3 +102,48 @@ hr {
     text-align: center;
     margin: 6vw auto;
 }
+/* MAIN */
+
+
+
+
+
+/* PREMIERE PARTIE SPOTIFY */
+.overlay-spotify {
+    width:25vw;
+    height: auto;
+}
+
+.line1-spotify {
+    display: flex;
+}
+
+
+.left-spotify {  /* BLOC AVEC TEXTE DE PRESENTATION */
+    border: solid none;
+    background-color: white;
+    flex: 1;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px 30px;
+}
+
+.title-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-spotify {
+    flex: 1;
+}
+
+.logos-from-blocs {
+    width: 120px;
+    margin: 25px 20px;
+}
+
+
+
+
+/* PREMIERE PARTIE SPOTIFY */
