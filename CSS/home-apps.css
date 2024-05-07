@@ -27,15 +27,18 @@ nav {
     width: 90vw;
     margin: 20px;
     padding: 1vw;
+    background-color: white;
 }
 
 .logos {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logos img {
-    width: 4vw;
+    width: 5vw;
+    margin-right: 15vw;
 }
 
 main {
