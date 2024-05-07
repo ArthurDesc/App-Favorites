@@ -5,7 +5,7 @@ body {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(236, 236, 236);
 }    
 
 .title {
@@ -132,21 +132,23 @@ hr {
 
 
 /* PREMIERE PARTIE SPOTIFY */
+
 .overlay-spotify {
-    width:25vw;
+    width:18vw;
     height: auto;
     border-radius: 20px;
+    justify-content: flex-end;
 }
 
 .line1-spotify {
     display: flex;
+    align-items: center;
 }
 
 
 .left-spotify {  /* BLOC AVEC TEXTE DE PRESENTATION */
     border: solid none;
     background-color: white;
-    flex: 1;
     padding: 25px;
     border-radius: 20px;
     margin: 20px 30px;
@@ -159,7 +161,7 @@ hr {
 }
 
 .right-spotify {
-    flex: 1;
+    margin: 3vw 8vw;
 }
 
 .logos-from-blocs {
@@ -171,3 +173,92 @@ hr {
 
 
 /* PREMIERE PARTIE SPOTIFY */
+
+
+
+/* DEUXIEME PARTIE YOUTUBE */
+.overlay-youtube {
+    width:26vw;
+    height: auto;
+    border-radius: 20px;
+    justify-content: flex-start;
+}
+
+.line2-youtube {
+    display: flex;
+    align-items: center;
+}
+
+
+.left-youtube {  /* BLOC AVEC TEXTE DE PRESENTATION */
+    border: solid none;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px 30px;
+}
+
+.title-youtube {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-youtube {
+    margin: 3vw 8vw;
+}
+
+.logos-from-blocs {
+    width: 120px;
+    margin: 25px 20px;
+}
+
+/* DEUXIEME PARTIE YOUTUBE */
+
+
+
+
+
+
+/* TROISIEME PARTIE twitter */
+.overlay-twitter {
+    width:18vw;
+    height: auto;
+    border-radius: 20px;
+    justify-content: flex-end;
+}
+
+.line3-twitter {
+    display: flex;
+    align-items: center;
+}
+
+
+.left-twitter {  /* BLOC AVEC TEXTE DE PRESENTATION */
+    border: solid none;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px 30px;
+}
+
+.title-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-twitter {
+    margin: 3vw 8vw;
+}
+
+.logos-from-blocs {
+    width: 120px;
+    margin: 25px 20px;
+}
+
+
+
+
+
+/* TROISIEME PARTIE twitter */
