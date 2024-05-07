@@ -86,10 +86,15 @@ h2 {
     margin: 25px 40px;
 }
 
+@font-face {
+    font-family: circular;
+    src: url(../Assets\ fonts/gotham-bold.otf);
+}
+
 h3 {
     font-size: 3vw;
     margin: 10px 25px;
-    font-family: "Roboto Mono", monospace;
+    font-family: circular
 }
 
 p {
@@ -108,10 +113,29 @@ hr {
 
 
 
+.spotify-color, .youtube-color, .twitter-color {
+    font-weight: 600;
+}
+
+.spotify-color {
+    color: #1CC658;
+}
+
+.youtube-color {
+    color: #FF0000;
+}
+
+.twitter-color {
+    font-weight: 800;
+}
+
+
+
 /* PREMIERE PARTIE SPOTIFY */
 .overlay-spotify {
     width:25vw;
     height: auto;
+    border-radius: 20px;
 }
 
 .line1-spotify {
