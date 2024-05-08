@@ -38,10 +38,6 @@ nav a {
     transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
 }    
 
-header {
-}
-
-
 
 nav a:hover {
 transform: scale(1.2);    
