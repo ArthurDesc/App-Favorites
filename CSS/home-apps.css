@@ -26,7 +26,7 @@ nav {
     background-color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    position: fixed;
+    position: 
     width: 90vw;
     margin: 20px;
     padding: 1vw;
@@ -50,10 +50,8 @@ transform: scale(1.2);
 .logos {
     display: flex;
     align-items: center;
-    flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
     margin-left: 10vw;
     margin-right: 10vw;
-    justify-content:center /* Aligne les éléments à l'extrémité droite */
 }    
 
 .logos img {
@@ -78,7 +76,7 @@ transform: scale(1.2);
 
 /* MAIN */
 main {
-    padding-top: 10vw;
+    padding-top: 2vw;
 }
 
 h2 {
@@ -308,7 +306,10 @@ footer p {
 .button1 {
     border: solid white;
     padding: 1vw;
-    justify-content: center;
+    display: block;
+    width: fit-content;
+    margin: 3vw auto;
+    border-radius: 20px;
 }
 
 /* FOOTER */
