@@ -26,8 +26,8 @@ nav {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     width: 90vw;
-    margin: 20px;
     padding: 1vw;
+    margin: 20px auto;
 }    
 
 nav a {
@@ -37,6 +37,9 @@ nav a {
     font-size: 18px;
     transition: transform 0.3s ease; /* Ajout de transition pour un effet de survol fluide */
 }    
+
+header {
+}
 
 
 
