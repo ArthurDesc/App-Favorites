@@ -183,6 +183,12 @@ hr {
     padding: 25px;
     border-radius: 20px;
     margin: 3vw 7vw;
+    transition: transform 2s ease;                      /* EFFET DE GROSSISSEMENT SUR IMG ALGO */
+}
+
+
+.left-spotify:hover {
+    transform: scale(1.04);
 }
 
 .title-spotify {
@@ -206,6 +212,75 @@ hr {
     font-size: 20px;
     margin: 3vw 6vw ;
 }
+
+.two-phones-spotify {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 3vw 16vw;
+}
+
+
+.two-phones-spotify p {
+    font-size: 20px;
+
+}
+
+
+.phone-1, .phone-2 {
+    width: 10vw;
+    height: 20vw;
+    transform: rotate(-5deg);   
+}
+
+.phone-2 {
+    transform: rotate(35deg);
+}
+
+.phones-spotify { 
+    transition: transform 2s ease;
+}
+
+.phones-spotify:hover { 
+    transform: scale(1.04);
+}
+
+
+.algo-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8vw
+}
+
+
+
+.algo-spotify img {
+    width: 17vw;
+}
+
+
+
+.algo-spotify p {
+    width: 19vw;
+    height: auto;
+    text-align: right;
+    line-height: 2vw;
+    font-size: 22px
+}
+
+
+.algo-img {
+     transition: transform 1.2s ease;        /* EFFET DE GROSSISSEMENT SUR IMG ALGO */
+}
+
+.algo-img:hover {
+    transform: scale(1.07);
+}
+
+
+
+
 
 
 
