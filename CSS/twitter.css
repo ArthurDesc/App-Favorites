@@ -12,7 +12,7 @@ body {
     font-size: 30px;
     margin: 15px 20px;
     font-style:normal;
-    color: #1CC658;
+    color: #179CF0;
 }    
 
 a {
@@ -49,8 +49,8 @@ transform: scale(1.2);
 .logos {
     display: flex;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }    
 
 .logos img {
@@ -69,7 +69,52 @@ transform: scale(1.2);
 
 
 
+/* TWITTER */
 
+.slogan {
+    text-align: center;
+    margin: 35px 10px;
+}
+
+.paragraph-twitter-blue {
+    color: #179CF0;
+    text-align: center;
+    margin:4vw;
+    font-family: circular;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.paragraph-twitter {
+    text-align: center;
+    margin: 4vw;
+}
+
+.mosaique-twitter {
+    margin: auto;
+    width: 98vw;
+}
+
+.three-phones-twitter {
+    display: block;
+    margin: 7vw auto;
+    padding: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TWITTER */
 
 
 
