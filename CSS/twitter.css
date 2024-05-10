@@ -92,20 +92,112 @@ transform: scale(1.2);
 }
 
 .mosaique-twitter {
-    margin: auto;
-    width: 98vw;
+    width:35vw;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
 }
 
-.three-phones-twitter {
+
+/* EFFET DE ZOOM SUR L'IMG MOSAIQUE  */
+.mosaique-twitter:hover {
+    transform: scale(1.07)
+}
+
+
+/* IMG AVEC LES 3 TELEPHONES */
+.three-phones-twitter { 
     display: block;
     margin: 7vw auto;
     padding: auto;
 }
 
+.second-part-twitter {
+    display: flex;
+    border: solid none;
+    background-color: #111111;
+    margin-right: 8vw;
+    margin-left: 0;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    border-bottom-right-radius: 40px;    
+    border-top-right-radius: 40px;    
+}
+
+.column1 {
+    padding: 2vw;
+}
 
 
 
 
+.third-part-twitter {
+    display: flex;
+}
+
+.block-text-twitter {
+    border: solid none;
+    background-color: #111111;
+    margin: 8vw 3vw;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hand-holding-phone {
+    width: 50vw;
+    height: auto;
+    margin-left: 4vw;
+    transition: transform 0.3s ease;
+}
+
+
+.hand-holding-phone:hover {
+    transform: rotate(-10deg);
+}
+
+
+.fourth-part-twitter {
+    display: flex;
+    align-items: center;
+    margin: 8vw 5vw;
+}
+
+
+.fourth-part-twitter img {
+    width:20vw;
+    transition: transform 0.3s ease;
+}
+
+.fourth-part-twitter img:hover {
+    transform: rotate(10deg);
+}
+
+
+
+
+.fourth-paragraph p{
+    text-align:  right;
+    margin: 50px 20px;
+
+}
+
+.fifth-part-twitter {
+    display: flex;
+    align-items: center;
+}
+
+
+/* IMAGE DE TELEPHONE SCINDEE */
+.fifth-part-twitter img{
+    margin: 0 5vw;
+}
+
+.paragraph-twitter-blue2 {
+    margin: 0 5vw;
+    text-align: right;
+    font-family: ;
+    line-height: 40px;
+    font-size: 16px;
+}
 
 
 
@@ -212,7 +304,7 @@ footer {
     background-color: rgb(17, 17, 17);
     color: white;
     padding: 7vw 3vw;
-    margin-top: 5vw;
+    margin-top: vw;
 }
 
 footer a {
