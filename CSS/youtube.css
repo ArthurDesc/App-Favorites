@@ -183,6 +183,13 @@ h4 {
 .three-screens-ytb img {
     width: 12vw;
     margin: 4vw 9vw ;
+    transition: transform 1s ease;  
+}
+
+
+
+.three-screens-ytb img:hover {
+    transform: scale(1.3);
 }
 
 

@@ -155,6 +155,13 @@ hr {
     padding: 25px;
     border-radius: 20px;
     margin: 20px 30px;
+    transition: transform 2s ease;  
+}
+
+
+
+.left-spotify:hover {
+    transform: scale(1.04);
 }
 
 .title-spotify {
@@ -199,7 +206,15 @@ hr {
     padding: 25px;
     border-radius: 20px;
     margin: 20px 30px;
+    transition: transform 2s ease;  
 }
+
+
+
+.left-youtube:hover {
+    transform: scale(1.04);
+}
+
 
 .title-youtube {
     display: flex;
@@ -243,7 +258,15 @@ hr {
     padding: 25px;
     border-radius: 20px;
     margin: 20px 30px;
+    transition: transform 2s ease;  
 }
+
+
+
+.left-twitter:hover {
+    transform: scale(1.04);
+}
+
 
 .title-twitter {
     display: flex;
