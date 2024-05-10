@@ -165,25 +165,53 @@ h4 {
 
 }
 
-.paragraph1-ytb {
+.paragraph-ytb {
     text-align: center;
+    margin: 4vw;
 }
 
 
-.three-screens-ytb {
+
+.three-screens-ytb {  /* CSS DES 3 TELEPHONES */
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
-    padding:;
 }
 
 
 
 .three-screens-ytb img {
-    width: 15vw;
+    width: 12vw;
+    margin: 4vw 9vw ;
 }
 
+
+.video-loop {
+    width: 25vw;
+    display:block;
+    margin: auto;
+    padding: auto;
+}
+
+
+.ipad-ytb{
+    transition: transform 1.5s ease; /* Ajoute une transition de 0.3 secondes avec un effet fluide */
+    margin: 6vw auto;
+    padding: auto;
+    display: block;
+}
+
+.ipad-ytb:hover {
+    transform:rotate(360deg) /* Applique une rotation de 360 degrés lorsqu'on survole l'image */
+}
+
+.conclusion {
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+    font-family:circular;
+    line-height: 50px;
+}
 
 /* YTB */
 
