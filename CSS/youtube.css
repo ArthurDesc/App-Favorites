@@ -264,6 +264,19 @@ footer p {
     text-align: center;
 }
 
+.title-footer {
+    font-size: 25px;
+    text-align: center;
+    border: solid none;
+    background-color: #b8b8b811;
+    width: auto;
+    display: block;
+    height: auto;
+    padding: 15px;
+    margin: 0vw 20vw;
+    border-radius: 20px;
+}
+
 
 
 .logos-footer {
@@ -272,6 +285,7 @@ footer p {
     flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 5vw;
 }    
 
 .logos-footer img {

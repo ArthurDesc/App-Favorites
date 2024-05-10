@@ -293,7 +293,8 @@ footer p {
     flex-grow: 1; /* Permet au conteneur .logos de prendre tout l'espace restant */
     margin-left: 10vw;
     margin-right: 10vw;
-}    
+    margin-top: 5vw;
+}     
 
 .logos-footer img {
     width: 5vw;
@@ -314,6 +315,19 @@ footer p {
     display: block;
     width: fit-content;
     margin: 3vw auto;
+    border-radius: 20px;
+}
+
+.title-footer {
+    font-size: 25px;
+    text-align: center;
+    border: solid none;
+    background-color: #b8b8b811;
+    width: auto;
+    display: block;
+    height: auto;
+    padding: 15px;
+    margin: 0vw 20vw;
     border-radius: 20px;
 }
 
