@@ -49,8 +49,8 @@ transform: scale(1.2);
 .logos {
     display: flex;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }    
 
 .logos img {
