@@ -9,7 +9,7 @@ body {
 }    
 
 .title {
-    font-size: 30px;
+    font-size:3vw;
     margin: 15px 20px;
     font-style:normal;
     color: #FF0000;
@@ -48,9 +48,9 @@ transform: scale(1.2);
 .logos {
     display: flex;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-}    
+    margin-left: 5vw;
+    margin-right: 5vw;
+}  
 
 .logos img {
     width: 5vw;
@@ -65,6 +65,8 @@ transform: scale(1.2);
 }       
 
 /* HEADER ET BODY */
+
+
 
 
 
@@ -138,49 +140,53 @@ hr {
 
 
 
-
-
-
-
-
-/* DEUXIEME PARTIE YOUTUBE */
-.overlay-youtube {
-    width:32vw;
+/* YTB */
+.feed-content {
+    width: 100%;
     height: auto;
-    border-radius: 20px;
-    justify-content: flex-start;
-}
-
-.line2-youtube {
-    display: flex;
-    align-items: center;
 }
 
 
-.left-youtube {  /* BLOC AVEC TEXTE DE PRESENTATION */
+h4 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    color: white;
     border: solid none;
-    background-color: white;
-    padding: 25px;
-    border-radius: 20px;
-    margin: 20px 30px;
+    background-color: black;
+    padding: 5vw 5vw;
+    line-height: 40px;
+    margin-top: 5vw;
 }
 
-.title-youtube {
+.slogan {
+    color: #FF0000;
+    text-align: center;
+    margin: 35px 10px;
+
+}
+
+.paragraph1-ytb {
+    text-align: center;
+}
+
+
+.three-screens-ytb {
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
+    padding:;
 }
 
-.right-youtube {
-    margin: 3vw 8vw;
+
+
+.three-screens-ytb img {
+    width: 15vw;
 }
 
-.logos-from-blocs {
-    width: 120px;
-    margin: 25px 20px;
-}
 
-/* DEUXIEME PARTIE YOUTUBE */
+/* YTB */
+
 
 
 
